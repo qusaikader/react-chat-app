@@ -14,6 +14,62 @@ const ChatList = () => {
                 <img src={addMode ? "./minus.png" : "./plus.png"} alt="Add user" className='add'
                 onClick={() => setAddMode(prev => !prev)}/>
             </div>
+            <div className="item">
+                <img src="./avatar.png" alt="Profile Picture" />
+                <div className="texts">
+                    <span>John Doe</span>
+                    <p>Hello, How are you?</p>
+                </div>
+            </div>
+            <div className="item">
+                <img src="./avatar.png" alt="Profile Picture" />
+                <div className="texts">
+                    <span>John Doe</span>
+                    <p>Hello, How are you?</p>
+                </div>
+            </div>
+            <div className="item">
+                <img src="./avatar.png" alt="Profile Picture" />
+                <div className="texts">
+                    <span>John Doe</span>
+                    <p>Hello, How are you?</p>
+                </div>
+            </div>
+            <div className="item">
+                <img src="./avatar.png" alt="Profile Picture" />
+                <div className="texts">
+                    <span>John Doe</span>
+                    <p>Hello, How are you?</p>
+                </div>
+            </div>
+            <div className="item">
+                <img src="./avatar.png" alt="Profile Picture" />
+                <div className="texts">
+                    <span>John Doe</span>
+                    <p>Hello, How are you?</p>
+                </div>
+            </div>
+            <div className="item">
+                <img src="./avatar.png" alt="Profile Picture" />
+                <div className="texts">
+                    <span>John Doe</span>
+                    <p>Hello, How are you?</p>
+                </div>
+            </div>
+            <div className="item">
+                <img src="./avatar.png" alt="Profile Picture" />
+                <div className="texts">
+                    <span>John Doe</span>
+                    <p>Hello, How are you?</p>
+                </div>
+            </div>
+            <div className="item">
+                <img src="./avatar.png" alt="Profile Picture" />
+                <div className="texts">
+                    <span>John Doe</span>
+                    <p>Hello, How are you?</p>
+                </div>
+            </div>
         </div>
     )
 }
